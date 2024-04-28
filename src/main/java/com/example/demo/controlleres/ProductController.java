@@ -6,6 +6,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.example.demo.dtos.ProductRecordDto;
 import com.example.demo.models.ProductsModel;
 import com.example.demo.repositories.ProductRepository;
 

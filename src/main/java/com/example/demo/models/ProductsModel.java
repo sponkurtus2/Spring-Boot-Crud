@@ -18,7 +18,7 @@ public class ProductsModel extends RepresentationModel<ProductsModel> implements
     private UUID idProduct;
     private String name;
     private BigDecimal value;
-
+    private String Description;
 
     public UUID getIdProduct() {
         return idProduct;
@@ -37,6 +37,12 @@ public class ProductsModel extends RepresentationModel<ProductsModel> implements
     }
     public void setValue(BigDecimal value) {
         this.value = value;
+    }
+    public String getDescription() {
+        return Description;
+    }
+    public void setDescription(String Description) {
+        this.Description = Description;
     }
 
     
